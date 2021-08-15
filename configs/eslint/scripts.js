@@ -1,5 +1,5 @@
 module.exports = {
-	env: {
-		shelljs: true,
-	},
+  env: {
+    shelljs: true,
+  },
 };

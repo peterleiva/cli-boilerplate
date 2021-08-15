@@ -7,14 +7,14 @@ const { ProgressPlugin } = require("webpack");
  * @return {import("webpack").Configuration}
  */
 module.exports = function () {
-	return {
-		mode: "development",
-		devtool: "eval",
-		output: {
-			clean: true,
-			devtoolModuleFilenameTemplate: "/[absolute-resource-path]",
-		},
+  return {
+    mode: "development",
+    devtool: "eval",
+    output: {
+      clean: true,
+      devtoolModuleFilenameTemplate: "/[absolute-resource-path]",
+    },
 
-		plugins: [new NodemonPlugin(), new ProgressPlugin()],
-	};
+    plugins: [new NodemonPlugin(), new ProgressPlugin()],
+  };
 };

@@ -3,7 +3,7 @@
  * @return {import("webpack").Configuration}
  */
 module.exports = function () {
-	return {
-		mode: "production",
-	};
+  return {
+    mode: "production",
+  };
 };

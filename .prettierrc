@@ -1,4 +1,4 @@
 {
-	"arrowParens": "avoid",
-	"bracketSpacing": true
+  "arrowParens": "avoid",
+  "bracketSpacing": true
 }
