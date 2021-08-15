@@ -1,0 +1,5 @@
+services:
+  web:
+    environment:
+      NODE_ENV: "production"
+      LOG_LEVEL: "warn"
