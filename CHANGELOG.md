@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Setup Docker
+- GitHub Actions build, test and code analysis
+
 ## [0.1.0]
 
 ### Added
