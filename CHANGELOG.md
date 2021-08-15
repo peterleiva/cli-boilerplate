@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0]
+
 ### Added
 
 - Setup webpack
@@ -14,7 +16,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Code Style formatter with Prettier
 - Linter with ESLint
 - Setup Tests with Jest
-- [.editorconfig](/.editorconfig)
 - project development dependencies
 - npm scripts
   - `start` - Run the CLI
@@ -30,5 +31,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - `test:watch` - Run ests in watch mode
   - `prepare` - Build and install husky when is not Continuous Integration
 
-[unreleased]: https://github.com/pherval/cli-boilerplate/compare/v0.0.1...HEAD
+[unreleased]: https://github.com/pherval/cli-boilerplate/compare/v0.1.0...HEAD
 [0.1.0]: https://github.com/pherval/cli-boilerplate/releases/tag/v0.1.0
