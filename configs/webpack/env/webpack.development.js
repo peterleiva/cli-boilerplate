@@ -1,4 +1,3 @@
-const NodemonPlugin = require("nodemon-webpack-plugin");
 const { ProgressPlugin } = require("webpack");
 
 /**
@@ -15,6 +14,6 @@ module.exports = function () {
       devtoolModuleFilenameTemplate: "/[absolute-resource-path]",
     },
 
-    plugins: [new NodemonPlugin(), new ProgressPlugin()],
+    plugins: [new ProgressPlugin()],
   };
 };
