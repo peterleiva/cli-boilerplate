@@ -78,7 +78,7 @@
   "dependencies": {
     "chalk": "^4.1.1",
     "dotenv": "^10.0.0",
-    "mongodb": "^4.3.0"
+    "mongodb": "^4.17.1"
   },
   "lint-staged": {
     "*": [
